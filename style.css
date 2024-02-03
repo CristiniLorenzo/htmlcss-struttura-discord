@@ -35,6 +35,37 @@ header{
     text-align: right;
     border-left: 2px dashed black;
 }
+
+.hero{
+    background-color: #00008B;
+    padding: 35px;
+}
+
+.hero-img{
+    background-color: #EE82EE;
+    max-width: 700px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.main-section{
+    background-color: #FFFFFF;
+    padding: 35px;
+    display: flex;
+}
+
+.light-blue{
+    background-color: #1E90FF;
+    width: 60%;
+    height: 400px;
+}
+
+.light-pink{
+    background-color: #FFC0CB;
+    width: 40%;
+    height: 400px;
+}
+
 /*---------------
     DEBUG
 ---------------*/
