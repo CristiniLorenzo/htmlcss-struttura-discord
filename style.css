@@ -21,19 +21,16 @@ header{
 
 .logo{
     width: 20%;
-    border-right: 2px dashed black;
 }
 
 .header-link{
     width: 60%;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .login{
     width: 20%;
-    text-align: right;
-    border-left: 2px dashed black;
+    text-align: right;   
 }
 
 .hero{
@@ -82,13 +79,34 @@ header{
 
 .green{
     background-color: #228B22;
-    height: 800px; 
+    height: 800px;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
-/*---------------
-    DEBUG
----------------*/
+footer{
+    background-color: #23272A;
+}
+.footer-container{
+    margin: 0 auto;
+    max-width: 1180px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    display: flex;
+}
 
-.container{
-    border: 2px dashed black;
+.salmon{
+    width: 40%;
+    background-color: #F08080;
+    height: 600px;
+}
+
+.aqua{
+    width: 60%;
+    background-color: #20B2AA;
+    height: 600px;
+}
+
+.footer-column{
+    width: 25%;
 }
