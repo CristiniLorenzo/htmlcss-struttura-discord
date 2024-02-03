@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: #ADD8E6;
+    padding: 10px;
+    
+}
+
+.header-box{
+    margin: 0 auto;
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 4px;
+    background-color: #DAA520;
+}
+
+.logo{
+    width: 20%;
+    border-right: 2px dashed black;
+}
+
+.header-link{
+    width: 60%;
+    text-align: center;
+    
+}
+
+.login{
+    width: 20%;
+    text-align: right;
+    border-left: 2px dashed black;
+}
+/*---------------
+    DEBUG
+---------------*/
+
+.container{
+    border: 2px dashed black;
+}
